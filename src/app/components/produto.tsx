@@ -28,8 +28,8 @@ const Produtos = () => {
   }, []);
 
   return (
-    <section id="produtos" className="bg-gray-100 py-10 px-4">
-      <h2 className="text-3xl font-bold text-center mb-8">Produtos</h2>
+    <section id="produtos" className="bg-text-black py-10 px-4">
+      <h2 className="text-3xl font-bold text-center mb-8 bg-text-black-10">Produtos</h2>
 
       {loading ? (
         <p className="text-center">Carregando produtos...</p>

@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 
 
 
+
 export default function Home() {
   return (
     <main>
@@ -12,6 +13,7 @@ export default function Home() {
       <Skills />
       <Produto />
       <Contacts />
+      
    
     </main>
   );

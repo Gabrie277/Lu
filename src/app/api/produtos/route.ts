@@ -1,3 +1,4 @@
+// app/api/produtos/route.ts
 import { NextResponse } from "next/server";
 
 export async function GET() {
@@ -39,21 +40,21 @@ export async function GET() {
     },
     {
       id: "6",
-      nome: "mochila de rodinha infantil avengers azul marinho - Único",
+      nome: "mochila de rodinha infantil avengers azul marinho - Único ",
       preco: 279.90,
       imagem: "https://cea.vtexassets.com/arquivos/ids/58347122-1600-auto?v=638369757796470000&width=1600&height=auto&aspect=true",
       link: "#",
     },
     {
       id: "7",
-      nome: "blusa com reflexivo nos ombros esportiva ace preta",
+      nome: "blusa com reflexivo nos ombros esportiva ace preta ",
       preco: 89.99,
       imagem: "https://cea.vtexassets.com/arquivos/ids/58936631-1600-auto?v=638597827882130000&width=1600&height=auto&aspect=true",
       link: "#",
     },
     {
       id: "8",
-      nome: "camiseta de algodão manga curta mindset preta",
+      nome: "camiseta de algodão manga curta mindset preta ",
       preco: 45.90,
       imagem: "https://cea.vtexassets.com/arquivos/ids/58875617-1600-auto?v=638579680257230000&width=1600&height=auto&aspect=true",
       link: "#",

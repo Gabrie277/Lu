@@ -100,7 +100,7 @@ export default function BiaChatWidget() {
           {/* Header */}
           <div className="bg-green-500 text-white flex items-center px-4 py-2 gap-3">
             <img
-              src="/at.png"
+              src="/at.jpg"
               alt="Avatar da Bia"
               className="w-8 h-8 rounded-full object-cover border border-white"
             />
