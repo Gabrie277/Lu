@@ -1,4 +1,4 @@
-"use client";
+"use client"; // Diretiva para garantir que o componente seja tratado como do lado do cliente
 
 import { useEffect, useState } from "react";
 
@@ -28,8 +28,8 @@ const Produtos = () => {
   }, []);
 
   return (
-    <section id="produtos" className="bg-text-black py-10 px-4">
-      <h2 className="text-3xl font-bold text-center mb-8 bg-text-black-10">Produtos</h2>
+    <section id="produtos" className="bg-text-black-10 py-10 px-4">
+      <h2 className="text-3xl font-bold text-center mb-8">Produtos</h2>
 
       {loading ? (
         <p className="text-center">Carregando produtos...</p>
@@ -49,7 +49,7 @@ const Produtos = () => {
                   }}
                   className="w-full h-85 object-cover rounded mb-3"
                 />
-                <h3 className="text-lg font-semibold">{produto.nome}</h3>
+                <h3 className="text-lg font-semibold text-black">{produto.nome}</h3>
                 <p className="text-blue-600 font-bold mt-2">
                   R$ {produto.preco.toFixed(2)}
                 </p>
